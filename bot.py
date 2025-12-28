@@ -10,7 +10,7 @@ app = Flask(__name__)
 TOKEN = os.environ.get("BOT_TOKEN")
 API_URL = f"https://api.telegram.org/bot{TOKEN}"
 
-VIDEO_URL = "https://files.catbox.moe/dt49t2.mp4"
+VIDEO_URL = "https://files.catbox.moe/8ku53d.mp4"
 
 ADMIN_ID = 5619516265
 
@@ -278,4 +278,5 @@ def webhook():
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 10000))
     app.run(host="0.0.0.0", port=port)
+
 
